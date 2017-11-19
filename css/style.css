@@ -1,0 +1,135 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.color-red {
+  background-color: #e52404;
+}
+
+.color-black {
+  background-color: #424242;
+
+}
+
+  body{width:100%;
+    display: flex;
+      min-height: 100vh;
+      flex-direction: column;}
+
+
+nav {
+  background-color: #23b000;
+}
+
+/* définition boutons menu*/
+ul li {
+text-align: center;
+  width: 324px;
+}
+
+.button-collapse {
+  padding-left: 0;
+}
+
+/* animation en dessous des items du menu */
+.cmn-t-underline {
+  position: relative;
+}
+.cmn-t-underline:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 0;
+  height: 15px;
+  background-color: #ffffff;
+  content: "";
+  transition: width 0.2s;
+}
+.cmn-t-underline:hover {
+  color: #ffffff;
+}
+.cmn-t-underline:hover:after {
+  width: 100%;
+}
+
+/* définition de la couleur de la div de la commande groupée*/
+.row .col.s9.m9 .col.s12 {
+  background-color: #D6A043;
+}
+/* définition de la div verte*/
+.col.s9.m12.green {
+  margin: 0px;
+  margin-top: 50px;
+  padding-bottom: 0px;
+}
+/* définition des paliers des prix*/
+.col.s3.z-depth-2 {
+  padding: 0;
+}
+/* définiton de la bannière transition entre le coeur du site et le footer*/
+.banniere {
+  height: 10px;
+  background-color: #23b000;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+
+/* défintion des boutons*/
+.btn {
+  width:100%;
+  margin: -10px;
+  background-color: #e52404;
+}
+.waves-effect input[type="button"], .waves-effect input[type="reset"], .waves-effect input[type="submit"] {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/*défintion des textes*/
+p{
+  text-align: justify;
+  font-size: 13px;
+  padding-top: 3px;
+}
+/*défintion de la bannère Mes COMMANDES après */
+.section.no-pad-bot {
+  background-color: #424242;
+  margin:20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+  main {
+    flex: 1 0 auto;
+  }
+
+
+
+@media screen and (max-width:1570px) {
+  #navprinc {
+    display: none;
+  }
+  .side-nav {
+    width: 345px;
+  }
+  .side-nav li a {
+    text-align: right;
+    width: 340px;
+    display: block;
+  }
+}
